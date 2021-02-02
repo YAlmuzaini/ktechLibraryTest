@@ -90,3 +90,9 @@ body {
 	-webkit-transform: scale(0.5);
 	transform: scale(1.1);
 }
+
+.card-img-test{
+  width: 100%;
+  background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+  background-size: cover;
+}
