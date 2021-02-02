@@ -76,6 +76,17 @@
 }
 
 body {
-  background: #007bff;
-  background: linear-gradient(to right, #0062e6, #33aeff);
+  background: #445db7;
+  background: linear-gradient(to right, #bac2e8, #8893d3);
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(0.5);
+	transform: scale(1.1);
 }
