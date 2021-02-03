@@ -100,3 +100,39 @@ body {
 .nav-link{
   color: #445db7;
 }
+
+.list-inline-item{
+  padding: 6px;
+}
+
+.fa-book{
+  color: #212e7e;
+}
+
+.keepColor{
+  color: black;
+}
+
+#module {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+#module p.collapse:not(.show) {
+  display: block;
+  height: 1.5rem;
+  overflow: hidden;
+}
+
+#module p.collapsing {
+  height: 3rem;
+}
+
+#module a.collapsed::after {
+  content: '+ Read more...';
+}
+
+#module a:not(.collapsed)::after {
+  content: '- Read less...';
+}

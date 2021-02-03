@@ -1,0 +1,245 @@
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a href="#" class="navbar-brand">
+    <img src="img/ktechLogo.png" height="35" alt="ktechLogo" />
+  </a>
+  <button
+    type="button"
+    class="navbar-toggler"
+    data-toggle="collapse"
+    data-target="#navbarCollapse"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="navbar-nav mr-auto">
+      <a href="#" class="nav-item nav-link">About us</a>
+      <a href="#" class="nav-item nav-link">E-Resources</a>
+      <a href="#" class="nav-item nav-link">Research</a>
+      <a href="#" class="nav-item nav-link">Services</a>
+      <a href="#" class="nav-item nav-link active">Ask Me!</a>
+    </div>
+    <div class="nav nav-pills ml-auto">
+      <a href="#" class="nav-item nav-link active px-5">Sign in</a>
+    </div>
+  </div>
+</nav> -->
+
+<!-- test -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ktech library</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="default-css/theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="col-sm-9 col-md-10 col-lg-10 mx-auto">
+      <div style="border-radius: 20px" class="card my-5 gmd-5">
+        <div class="card-header pb-0">
+          <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            <a href="#" class="navbar-brand d-none d-lg-block pr-2">
+              <img src="img/ktechLogo.png" height="30" alt="ktechLogo" />
+            </a>
+            <div class="nav nav-pills d-block d-lg-none pb-2">
+              <a href="#" class="nav-item nav-link active">log in</a>
+            </div>
+            <!-- navigation bar -->
+            <div
+              class="nav nav-tabs card-header-tabs"
+              id="bologna-list"
+              role="tablist"
+            >
+              <a
+                href="#searchBook"
+                role="tab"
+                aria-controls="searchBook"
+                aria-selected="true"
+                class="nav-item nav-link pr-3 active"
+                >Search</a
+              >
+              <a
+                href="#aboutUS"
+                role="tab"
+                aria-controls="aboutUS"
+                aria-selected="false"
+                class="nav-item nav-link pr-3"
+                >About us</a
+              >
+              <a
+                href="#EResources"
+                role="tab"
+                aria-controls="EResources"
+                aria-selected="false"
+                class="nav-item nav-link pr-3"
+                >E-Resources</a
+              >
+              <a
+                href="#Research"
+                role="tab"
+                aria-controls="Research"
+                aria-selected="false"
+                class="nav-item nav-link pr-3"
+                >Research</a
+              >
+              <a
+                href="#Services"
+                role="tab"
+                aria-controls="Services"
+                aria-selected="false"
+                class="nav-item nav-link pr-3"
+                >Services</a
+              >
+              <a
+                href="#AskLib"
+                role="tab"
+                aria-controls="AskLib"
+                aria-selected="false"
+                class="nav-item nav-link"
+                >Ask Me!</a
+              >
+            </div>
+
+            <!-- collapse menue -->
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav mr-auto d-none d-md-block">
+                <a href="#" class="nav-item nav-link">About us</a>
+                <a href="#" class="nav-item nav-link">E-Resources</a>
+                <a href="#" class="nav-item nav-link">Research</a>
+                <a href="#" class="nav-item nav-link">Services</a>
+                <a href="#" class="nav-item nav-link active">Ask Me!</a>
+              </div>
+              <div class="nav nav-pills ml-auto">
+                <a
+                  href="#"
+                  class="d-none d-lg-block nav-item nav-link active px-5 px-md-4 px-sm-4"
+                  >log in 2</a
+                >
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="card-body card-img-test p-lg-5 p-md-5">
+          <div class="tab-content">
+            <div class="tab-pane active" id="searchBook">
+              <div class="row">
+                <div class="col-lg-7 col-sm-12 text-center p-lg-5 my-3">
+                  <h1
+                    class="font-weight-bold text-left display-4 d-none d-lg-block"
+                  >
+                    ktech Online Library
+                  </h1>
+                  <div class="d-block d-lg-none">
+                    <img style="width: 100%" src="img/image01.png" alt="" />
+                  </div>
+                  <p class="text-justify lead py-2">
+                    Use ktech library to search through collection of our books
+                    and researches
+                  </p>
+                  <br />
+                  <div class="p-2 bg-light rounded rounded-pill shadow mb-4">
+                    <div class="input-group">
+                      <input
+                        type="search"
+                        placeholder="What are you searching for?"
+                        aria-describedby="button-addon1"
+                        class="form-control border-0 bg-light"
+                      />
+                      <div class="input-group-append">
+                        <button
+                          id="button-addon1"
+                          type="submit"
+                          class="btn btn-link text-primary"
+                        >
+                          <i class="fa fa-search"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-5 p-5 d-block d-lg-none"></div>
+                <div class="col-lg-5 d-none d-lg-block p-lg-5 hover01">
+                  <figure>
+                    <img src="img/open-book.svg" alt="" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane"
+              id="aboutUS"
+              role="tabpanel"
+              aria-labelledby="aboutUS-tab"
+            >
+              <p class="card-text">Hi ISSA 1</p>
+              <a href="#" class="card-link text-danger">Read more</a>
+            </div>
+            <div
+              class="tab-pane"
+              id="EResources"
+              role="tabpanel"
+              aria-labelledby="EResources-tab"
+            >
+              <p class="card-text">Hi ISSA 2</p>
+              <a href="#" class="card-link text-danger">Read more</a>
+            </div>
+            <div
+              class="tab-pane"
+              id="Research"
+              role="tabpanel"
+              aria-labelledby="Research-tab"
+            >
+              <p class="card-text">Hi ISSA 3</p>
+              <a href="#" class="card-link text-danger">Read more</a>
+            </div>
+            <div
+              class="tab-pane"
+              id="Services"
+              role="tabpanel"
+              aria-labelledby="Services-tab"
+            >
+              <p class="card-text">Hi ISSA 4</p>
+              <a href="#" class="card-link text-danger">Read more</a>
+            </div>
+            <div
+              class="tab-pane"
+              id="AskLib"
+              role="tabpanel"
+              aria-labelledby="AskLib-tab"
+            >
+              <p class="card-text">Hi ISSA 5</p>
+              <a href="#" class="card-link text-danger">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="default-js/theme.js"></script>
+  </body>
+</html>
+
