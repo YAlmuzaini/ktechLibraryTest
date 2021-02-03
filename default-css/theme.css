@@ -93,6 +93,10 @@ body {
 
 .card-img-test{
   width: 100%;
-  background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+  background: scroll center url('img\image04.jpg');
   background-size: cover;
+}
+
+.nav-link{
+  color: #445db7;
 }
