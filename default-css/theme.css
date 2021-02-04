@@ -81,35 +81,35 @@ body {
 }
 
 .hover01 figure img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .hover01 figure:hover img {
-	-webkit-transform: scale(0.5);
-	transform: scale(1.1);
+  -webkit-transform: scale(0.5);
+  transform: scale(1.1);
 }
 
-.card-img-test{
+.card-img-test {
   width: 100%;
-  background: scroll center url('img\image04.jpg');
+  background: scroll center url("img\image04.jpg");
   background-size: cover;
 }
 
-.nav-link{
+.nav-link {
   color: #445db7;
 }
 
-.list-inline-item{
+.list-inline-item {
   padding: 6px;
 }
 
-.fa-book{
+.fa-book {
   color: #212e7e;
 }
 
-.keepColor{
+.keepColor {
   color: black;
 }
 
@@ -117,7 +117,6 @@ body {
   font-size: 1rem;
   line-height: 1.5;
 }
-
 
 #module p.collapse:not(.show) {
   display: block;
@@ -130,9 +129,28 @@ body {
 }
 
 #module a.collapsed::after {
-  content: '+ Read more...';
+  content: "+ Read more...";
 }
 
 #module a:not(.collapsed)::after {
-  content: '- Read less...';
+  content: "- Read less...";
+}
+
+.list-display li {
+  margin-bottom: 0.4rem;
+}
+.list-checkmarks {
+  padding-left: 1.5rem;
+}
+.list-checkmarks li {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.list-checkmarks li:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f12a";
+  margin: 0 10px 0 -28px;
+  color: red;
 }
