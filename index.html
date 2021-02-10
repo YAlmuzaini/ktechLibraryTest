@@ -17,6 +17,7 @@
   <body>
     <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 mx-auto">
       <div style="border-radius: 20px" class="card my-5 gmd-5">
+        <!-- navigation bar -->
         <div class="card-header pb-0">
           <nav
             class="navbar navbar-expand-xl navbar-light bg-light"
@@ -26,7 +27,10 @@
               <img src="img/ktechLogo.png" height="28" alt="ktechLogo" />
             </a>
             <div class="nav nav-pills d-block d-lg-none">
-              <a href="#" class="nav-item nav-link active">log in</a>
+              <div class="nav-item active">
+                <img class="pb-1" src="img/o365.png" alt="office 365 login" />
+                <a class="text-dark" href="#">Office login</a>
+              </div>
             </div>
             <button
               type="button"
@@ -47,7 +51,7 @@
                   role="tab"
                   aria-controls="searchBook"
                   aria-selected="true"
-                  class="nav-item nav-link pr-3 active"
+                  class="nav-item nav-link active"
                   >Home</a
                 >
                 <a
@@ -55,7 +59,7 @@
                   role="tab"
                   aria-controls="aboutUS"
                   aria-selected="false"
-                  class="nav-item nav-link pr-3"
+                  class="nav-item nav-link"
                   >About us</a
                 >
                 <a
@@ -63,7 +67,7 @@
                   role="tab"
                   aria-controls="EResources"
                   aria-selected="false"
-                  class="nav-item nav-link pr-3"
+                  class="nav-item nav-link"
                   >E-Resources</a
                 >
                 <a
@@ -71,7 +75,7 @@
                   role="tab"
                   aria-controls="Research"
                   aria-selected="false"
-                  class="nav-item nav-link pr-3"
+                  class="nav-item nav-link"
                   >Research</a
                 >
                 <a
@@ -79,7 +83,7 @@
                   role="tab"
                   aria-controls="Services"
                   aria-selected="false"
-                  class="nav-item nav-link pr-3"
+                  class="nav-item nav-link"
                   >Services</a
                 >
                 <a
@@ -99,18 +103,21 @@
                   >Ask Me!</a
                 >
               </div>
-              <!-- <div class="nav nav-pills ml-auto">
-                <a
-                  href="#"
-                  class="d-none d-lg-block nav-item nav-link active px-5 px-md-4 px-sm-4"
-                  >log in 2</a
+              <div class="nav nav-pills ml-auto">
+                <div
+                  class="d-none d-lg-block nav-item active px-5 px-md-1 px-sm-4 mt-xl-0 mt-lg-3 font-italic rounded gmd-1 p-1 btn btn-secondary"
                 >
-              </div> -->
+                  <img class="pb-1" src="img/o365.png" alt="office 365 login" />
+                  <a class="text-white" href="#">Office login</a>
+                </div>
+              </div>
             </div>
           </nav>
         </div>
+
         <div class="card-body card-img-test p-lg-5 p-md-5">
           <div class="tab-content">
+            <!-- home page -->
             <div class="tab-pane active" id="searchBook">
               <div class="row">
                 <div class="col-lg-7 col-sm-12 text-center p-lg-5 my-3">
@@ -155,13 +162,15 @@
                 </div>
               </div>
             </div>
+
+            <!-- about us page -->
             <div
               class="tab-pane"
               id="aboutUS"
               role="tabpanel"
               aria-labelledby="aboutUS-tab"
             >
-              <div id="module">
+              <div class="module">
                 <h1 class="display-4">About the Library</h1>
                 <p class="collapse" id="collapseExample" aria-expanded="false">
                   The ktech Library is an academic library with a basic
@@ -195,7 +204,7 @@
                 research, and academic missions of the College.
               </p>
 
-              <div id="module">
+              <div class="module">
                 <h1 class="display-4">Vision</h1>
                 <p class="collapse" id="collapseExample2" aria-expanded="false">
                   The ktech Library supports Kuwait Technical College’s vision
@@ -222,7 +231,7 @@
                 ></a>
               </div>
 
-              <div id="module">
+              <div class="module">
                 <h1 class="display-4">Goals</h1>
                 <p class="card-text">
                   In order to carry out its mission, the ktech Library pursues
@@ -291,6 +300,8 @@
                 ></a>
               </div>
             </div>
+
+            <!-- E-Resources Page -->
             <div
               class="tab-pane"
               id="EResources"
@@ -300,6 +311,8 @@
               <p class="card-text">E-Resources</p>
               <a href="#" class="card-link text-danger">Read more</a>
             </div>
+
+            <!-- Research Page -->
             <div
               class="tab-pane"
               id="Research"
@@ -309,6 +322,8 @@
               <p class="card-text">Research</p>
               <a href="#" class="card-link text-danger">Read more</a>
             </div>
+
+            <!-- Services Page -->
             <div
               class="tab-pane"
               id="Services"
@@ -318,6 +333,8 @@
               <p class="card-text">Services</p>
               <a href="#" class="card-link text-danger">Read more</a>
             </div>
+
+            <!-- Rules and policy Page -->
             <div
               class="tab-pane"
               id="RulesPolicy"
@@ -389,11 +406,12 @@
               </div>
 
               <h1 class="display-4 pt-1">Policy</h1>
-              <ul style="font-style: italic;" class="list-display list-checkmarks">
+              <ul
+                style="font-style: italic"
+                class="list-display list-checkmarks"
+              >
                 <li>
-                  <span style="font-weight: bold;"
-                    >Borrowing</span
-                  >
+                  <span style="font-weight: bold">Borrowing</span>
                   <br />
                   Borrowing privileges are provided to all registered students
                   and currently employed faculty and staff. A College ID card is
@@ -403,9 +421,7 @@
                   circulate outside the library.
                 </li>
                 <li>
-                  <span style="font-weight: bold;"
-                    >Loan periods</span
-                  >
+                  <span style="font-weight: bold">Loan periods</span>
                   <br />
                   Faculty may borrow up to 20 materials within one-semester loan
                   period. Students may borrow up to five items for a week
@@ -415,18 +431,14 @@
                   one material of each type and can be borrowed for three days.
                 </li>
                 <li>
-                  <span style="font-weight: bold;"
-                    >Renewals</span
-                  >
+                  <span style="font-weight: bold">Renewals</span>
                   <br />
                   Circulating materials may be renewed at the Circulation Desk.
                   The borrowers may renew materials twice unless the materials
                   have been requested by another user.
                 </li>
                 <li>
-                  <span style="font-weight: bold;"
-                    >Recalls</span
-                  >
+                  <span style="font-weight: bold">Recalls</span>
                   <br />Library users may recall any checked-out item after a
                   minimum of one week, regardless of the borrower’s status and
                   standard loan period. They receive recall notices by e-mail
@@ -436,6 +448,9 @@
                 </li>
               </ul>
             </div>
+
+            <!-- Ask me Page -->
+
             <div
               class="tab-pane"
               id="AskLib"

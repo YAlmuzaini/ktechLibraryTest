@@ -113,26 +113,26 @@ body {
   color: black;
 }
 
-#module {
+.module {
   font-size: 1rem;
   line-height: 1.5;
 }
 
-#module p.collapse:not(.show) {
+.module p.collapse:not(.show) {
   display: block;
   height: 1.5rem;
   overflow: hidden;
 }
 
-#module p.collapsing {
+.module p.collapsing {
   height: 3rem;
 }
 
-#module a.collapsed::after {
+.module a.collapsed::after {
   content: "+ Read more...";
 }
 
-#module a:not(.collapsed)::after {
+.module a:not(.collapsed)::after {
   content: "- Read less...";
 }
 
@@ -153,4 +153,8 @@ body {
   content: "\f12a";
   margin: 0 10px 0 -28px;
   color: red;
+}
+
+.officeImage{
+  content: url(img\o365.png);
 }
